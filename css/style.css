@@ -1,0 +1,105 @@
+body {
+    margin-top: 20%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+canvas {
+    display:block;
+    position: fixed;
+    z-index: -1;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #282828;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+    color: #fff;
+    max-width: 90%;
+    padding: 2em 3em;
+    text-shadow: 0px 0px 2px #131415;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+a,
+a:visited {
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+
+a:hover,
+a:focus {
+    color: #FFFFFF;
+}
+
+
+#content {
+    text-align: center;
+}
+
+
+hr {
+    text-align:center; margin: 0 auto;
+}
+
+h1, h3 {
+    color: white;
+}
+
+#button-bar {
+    overflow: hidden;
+}
+
+a.svg {
+    position: center;
+    display: inline-block;
+    width: 10%;
+}
+
+a.svg:after {
+    content: ""; 
+    position:relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left:0;
+}
+
+object {
+    width: 50%;
+    pointer-events: none;
+}
+
+#button-bar {
+    margin-top: 20%;
+}
+
+#landing-page {
+    text-align: center;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.svg:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}

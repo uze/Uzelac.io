@@ -1,103 +1,63 @@
 <!DOCTYPE html>
 <html lang="en" >
-
     <head>
         <meta charset="UTF-8">
 
         <title>Uzelac</title>
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-        <link rel="stylesheet" href="resources/css/style.css">
-        <script
-                src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
-                ></script>
-
-        <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-        <link
-              rel="stylesheet"
-              href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
-              />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css"> 
     </head>
 
     <body>
+        <div id="particles-js"></div>
 
-        <div class = "wrapper">
-            <header>
-                <div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
-                    <div class="container">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain">
-                                <span class="glyphicon glyphicon-chevron-right" style="color:white;"></span>
-                            </button>
-                            <a class="navbar-brand" href="#">Uzelac</a>
-                        </div>
-                        <div class="collapse navbar-collapse" id="navMain">
-                            <ul class="nav navbar-nav pull-right">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Blog</a></li> 
-                                <li><a href="#">Contact</a></li> 
-                            </ul>
-                        </div>
+        <div class = "container" id = "landing-page">
+            <div class = "row">
+                <div class = "col-md-3 col-centered">
+                    <div id = "content">
+                        <h1>Nikola Uzelac</h1>
+                        <hr>
+                        <h3>Software Engineer</h3>
                     </div>
                 </div>
-            </header>
+            </div> 
         </div>
 
-        <div class="row">
-            <header>
-                <div class="col-md-12">
-                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img src="https://images.unsplash.com/photo-1507752533523-5186b0bc4c43?auto=format&fit=crop&w=1900&q=1080" alt="First slide">
-                            </div>
-                            <div class="item">
-                                <img src="https://images.unsplash.com/photo-1500838752696-2a9bcfa9674a?auto=format&fit=crop&w=1900&q=1080" alt="Second slide">
-                            </div>
-                            <div class="item">
-                                <img src="https://images.unsplash.com/photo-1465414829459-d228b58caf6e?auto=format&fit=crop&w=1900&q=1080" alt="Third slide">
-                            </div>
-                        </div>
-                        </header>
+
+
+        <div class="container" id = "button-bar">
+            <div class="row">
+                <div class="col-lg-12 text-center"> 
+                    <!--<a href="#" class="svg" id = "link">
+                        <object data="me.svg" type="image/svg+xml" class="mailicon"></object>
+                    </a>-->
+                    <a href="https://github.com/uzeio" class="svg" id = "link">
+                        <object data="img/github.svg" type="image/svg+xml" class="mailicon"></object>
+                    </a>
+                    <a href="img/Resume.pdf" class="svg" id = "link">
+                        <object data="img/resume.svg" type="image/svg+xml" class="mailicon"></object>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nickuzelac/" class="svg" id = "link">
+                        <object data="img/linkedin.svg" type="image/svg+xml" class="mailicon"></object>
+                    </a> 
+                    <a href="https://twitter.com/uzeio" class="svg" id = "link">
+                        <object data="img/twitter.svg" type="image/svg+xml" class="mailicon"></object>
+                    </a>
                 </div>
+            </div>
+        </div>
 
-                <div class="main-text hidden-xs">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div id = "landing-page-text">
-                                <h1>Nikola Uzelac</h1>
-                                <hr>
-                                <h3>Software Engineer</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <script src='https://cldup.com/S6Ptkwu_qA.js'></script>
+        <script  src="js/index.js"></script>
+        <script
+                src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+                crossorigin="anonymous">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-
-
-                <div class="About">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2>Who am I</h2>
-                            <hr>
-                            <div class="column">
-                                <p>Hello! I'm Nick and I'm a computer science student in Tempe, AZ. I previously worked as a software engineering intern at STYR in Scottsdale, AZ as well as United Technologies in Phoenix, AZ. I'm currently attending Arizona State University where I am a student officer of the Software Developers Association. I work on projects, write on my blog, enjoy reading, and take photos. I can be found on GitHub, Twitter, and LinkedIn. Take a look at my résumé and feel free to contact me. Opinions and works on this site are my own, unless otherwise specified.</p>
-                            </div>
-                            <div class="column">
-                                <img src="https://images.unsplash.com/photo-1505238680356-667803448bb6?auto=format&fit=crop&w=500&q=800">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-
-                <script  src="resources/js/app.js"></script>
-
-                </body>
-
-            </html>
+    </body>
+</html>
