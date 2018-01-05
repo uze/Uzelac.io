@@ -1,3 +1,7 @@
+html {
+    min-width: 940px;
+}
+
 body {
     margin-top: 20%;
     width: 100%;
@@ -9,6 +13,10 @@ canvas {
     display:block;
     position: fixed;
     z-index: -1;
+}
+
+#landing-page {
+    z-index: 0;
 }
 
 #particles-js {
