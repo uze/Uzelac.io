@@ -1,7 +1,12 @@
+html, body {
+  overflow-x: hidden;
+}
+
 body {
     margin-top: 20%;
     min-width: 940px;
     font-family: 'Quicksand', sans-serif;
+    position: relative
 }
 
 canvas {
